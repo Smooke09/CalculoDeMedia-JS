@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  background-image: url(Circuit\ Primary.svg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.inputM {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.inputM h2 {
+  display: flex;
+  font-size: 18px;
+  color: white;
+  padding-bottom: 10px;
+}
+
+input {
+  height: 26px;
+  font-size: 14px;
+  width: 98px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.insira {
+  padding-bottom: 60px;
+  color: #ffffff;
+}
+
+#input_nome {
+  width: 200px;
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+button {
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 23px;
+  width: 100px;
+  border: 1px solid beige;
+  cursor: pointer;
+  color: #150a55;
+  border-radius: 10px;
+  background-color: azure;
+  justify-content: center;
+}
+
+#reprovado {
+  font-size: 17px;
+  background-color: red;
+  width: 218px;
+  display: flex;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 auto;
+  justify-content: center;
+}
+#media {
+  font-size: 17px;
+  background-color: green;
+  width: 218px;
+  display: flex;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 auto;
+  justify-content: center;
+}
